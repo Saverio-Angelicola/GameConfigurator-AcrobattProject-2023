@@ -1,0 +1,16 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  image: mcr.microsoft.com/dotnet/sdk:7.0
+  script:
+    - dotnet build
+
+tests:
+  stage: test
+  image: mcr.microsoft.com/dotnet/sdk:7.0
+  script:
+    - dotnet test Tests/Acrobatt.UnitTests --no-restore
