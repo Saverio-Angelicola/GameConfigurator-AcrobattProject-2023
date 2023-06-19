@@ -72,7 +72,7 @@ Dotnet : `dotnet build` <br>
 
 Docker pour la production :
 1. Se déplacer dans le dossier parent du projet `cd ..`
-2. Télécharger le [serveur de jeu]([https://git.unistra.fr/lpacrobatlgsafetrhse/all-chimie-game-server-rust/-/tree/master/](https://github.com/Saverio-Angelicola/GameServerRust-Acrobatt-2023)
+2. Télécharger le [serveur de jeu](https://github.com/Saverio-Angelicola/GameServerRust-Acrobatt-2023)
 3. Extraire l'archive
 4. Renommez le dossier game-server
 5. Assurez-vous qu'à la racine du projet les fichiers sont bien présent
